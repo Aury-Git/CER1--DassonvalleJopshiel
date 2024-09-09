@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+/*
+ * Cambiar el color de las letras de los botones.
+ * Cambiar los iconos de las redes sociales.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    /* Quita la linea que esta debajo de los enlaces*/
+    list-style: none;
+    /* Quita los circulos que aparecen en las listas*/
+
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    /* aumenta el interletraje de las letras según el tamaño final que se esté usando. */
+    font-style: normal;
+    /* Hace que la letra este oblicua */
+}
+
+.container {
+    max-width: 100%;
+    /* deja 1200px */
+    margin: 0 auto;
+}
+
+/* Botones para los lados */
+.swiper-button-prev::after {
+    font-size: 25px;
+}
+
+.swiper-button-next::after {
+    font-size: 25px;
+}
+
+.swiper-button-prev {
+    color: red;
+}
+
+.swiper-button-next {
+    color: red;
+}
+
+
+/* Hay que borrar esto, no me sirve 
+.swiper-paginarion-bullet{
+    background-color: #D3D2D2;
+    opacity: 1;
+    
+    float:left;
+}*/
+
+.menu {
+    top: 20px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    z-index: 1000;
+
+    /*
+    display: flex;
+    position: absolute;
+    */
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-1 {
+    margin-right: 180px;
+}
+
+.menu-2 {
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.socials {
+    display: flex;
+}
+
+.social {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #DB241B;
+    border-radius: 50%;
+}
+
+.social:hover {
+    background-color: #DB241B;
+}
+
+.social img {
+    margin: 8px 0 0 10px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li::hover {
+    color: #DB241B;
+    /* Cambiar el color cuando se pasa por encima*/
+}
+
+/*
+#menu {
+    display: none;
+}*/
+
+/* no me sirve
+.menu-icono{
+    width: 25px;
+}*/
+
+.menu {
+    cursor: pointer;
+    /* display: none; Esto me causa error*/
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+
+.slider-txt {
+    margin-left: 85px;
+    width: 50%;
+}
+
+.slider-txt h1 {
+    font-size: 70px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-txt p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 225px;
+    width: 550px;
+}
+
+.card {
+    width: 25%;
+    float: left;
+    margin: 0.5%;
+    border: 1px solid blue;
+
+
+}
+
+.card img {
+
+    margin-right: 225px;
+    width: 550px;
+
+}
+
+nav {
+    background-color: #70E000;
+}
+
+header {
+    background-color: #9EF01A;
+}
+
+.products {
+    background-color: #10cea5;
+}
+
+
+
+/* Seccion de Solicitud de Reciclaje */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.sublista {
+    margin-left: 20px;
+    display: none;
+    
+
+}
+
+#solicitud li {
+    font-size: 300%;
+}
+
+#solicitud label {
+    font-size: 300%;
+}
+#solicitud input {
+    font-size: 300%;
+}
+
+#solicitud{
+    background-color: #9EF01A;
+}
+
+
+
+
+
+
+/*
+.slider-txt .card-title .card-text .text-muted{
+    margin-left:85px;
+    width: 50%;
+}
+.slider-txt h1 .card-title .card-text .text-muted{
+    font-size: 70px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.slider-txt p .card-title .card-text .text-muted{
+    font-size: 18px;
+    color: #000000;
+}
+.slider-img .card-img-top{
+    width: 50%;
+
+}
+
+.slider-img .card-img-top img{
+    margin-right: 225px;
+    width: 550px;
+}
+    */
+/* 
+.slider-img{
+    width: 100px;
+    height: auto;
+}
+main{
+    float:left;
+     clear: both; 
+}  
+*/
